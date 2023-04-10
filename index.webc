@@ -17,12 +17,34 @@
           src="img/sample.jpg"
           alt="Sample Image"
         />
+        <img
+          webc:is="eleventy-image"
+          width="500"
+          src="img/sample2.jpg"
+          alt="Sample Image"
+        />
+        <img
+          webc:is="eleventy-image"
+          width="500"
+          src="img/sample3.jpg"
+          alt="Sample Image"
+        />
       </div>
       <div class="right">
         <h1>Cloudinary Image</h1>
         <img
           width="500"
           src="https://res.cloudinary.com/tamas-demo/image/upload/w_500,f_webp,q_auto/img-component/sample.jpg"
+          alt="Sample Image"
+        />
+        <img
+          width="500"
+          src="https://res.cloudinary.com/tamas-demo/image/upload/w_500,f_webp,q_auto/img-component/sample2.jpg"
+          alt="Sample Image"
+        />
+        <img
+          width="500"
+          src="https://res.cloudinary.com/tamas-demo/image/upload/w_500,f_webp,q_auto/img-component/sample3.jpg"
           alt="Sample Image"
         />
       </div>
