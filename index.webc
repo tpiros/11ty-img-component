@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="left">
+      <div class="column">
         <h1>Built in Component</h1>
         <img
           webc:is="eleventy-image"
@@ -30,7 +30,7 @@
           alt="Sample Image"
         />
       </div>
-      <div class="right">
+      <div class="column">
         <h1>Cloudinary Image</h1>
         <img
           width="500"
